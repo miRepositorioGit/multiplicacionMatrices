@@ -1,0 +1,24 @@
+generalesRepositorio.txt
+
+Liga del repositorio:
+	https://github.com/miRepositorioGit/multiplicacionMatrices.git
+	
+Listado de comandos para crear el repositorio:
+
+	echo "# multiplicacionMatrices" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/miRepositorioGit/multiplicacionMatrices.git
+	git push -u origin main
+
+Listado de comandos para actualizar el reposirotio:
+
+	git add .
+	git add -A
+	git add operador_Arroba.py
+	
+	git commit -m "actualizo multiplicación de matriz 2x2"
+	git push -u origin main
+	
